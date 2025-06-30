@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - TechnoWorld</title>
+    <link rel="icon" type="image/svg+xml" href="images/logo2.svg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="TechnoWorld Logo">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="sedes.html">Sedes</a>
+                <a href="productos.html">Productos</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <section class="section">
+            <h1 class="section-title">Contáctanos</h1>
+            <div class="contact-img-wrap">
+                <img src="images/contact.jpg" alt="Atención al cliente">
+            </div>
+            <div class="contact-form mejorada">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre"><i class="fas fa-user"></i> Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fas fa-envelope"></i> Correo electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje"><i class="fas fa-comment-dots"></i> Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Enviar mensaje</button>
+                </form>
+            </div>
+            <div class="contact-info-box">
+                <h2><i class="fas fa-info-circle"></i> Información de contacto</h2>
+                <p><i class="fas fa-phone"></i> <strong>Teléfono:</strong> 999-888-777</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Dirección central:</strong> Av. Principal 123, Lima</p>
+                <p><i class="fas fa-clock"></i> <strong>Horario de atención:</strong> Lunes a Sábado de 9:00 am a 7:00 pm</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-tw">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Nuestra empresa</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="sedes.html">Sedes</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="contacto.html">Ayuda/Preguntas frecuentes</a></li>
+                    <li><a href="#">Prensa</a></li>
+                    <li><a href="#">Afiliados</a></li>
+                    <li><a href="#">Socios</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Más</h4>
+                <ul>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Aviso legal</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-col region">
+                <h4>Región / Divisa</h4>
+                <select>
+                    <option>Perú</option>
+                    <option>Chile</option>
+                    <option>Argentina</option>
+                </select>
+                <select>
+                    <option>Soles (PEN)</option>
+                    <option>Dólar (USD)</option>
+                    <option>Euro (EUR)</option>
+                </select>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-social">
+                <a href="#"><img src="images/logo.svg" alt="TechnoWorld" style="height:100px;vertical-align:middle;"></a>
+            </div>
+            <p>© 2025 TechnoWorld. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnoWorld - Tu mejor opción en tecnología</title>
+    <link rel="icon" type="image/svg+xml" href="images/logo2.svg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="TechnoWorld Logo">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="sedes.html">Sedes</a>
+                <a href="productos.html">Productos</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <section class="section">
+            <div class="carousel anim-fadein">
+                <img src="images/carousel1.jpg" alt="Productos tecnológicos">
+            </div>
+            
+            <h1 class="section-title anim-fadein-delay">TechnoWorld – Tu mejor opción en tecnología y accesorios informáticos</h1>
+            
+            <p class="anim-fadein-delay2" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                En TechnoWorld nos especializamos en ofrecer los mejores productos informáticos del mercado, 
+                brindando calidad, garantía y los precios más competitivos para empresas y hogares.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title anim-fadein">Productos Destacados</h2>
+            <div class="products-grid">
+                <div class="product-card anim-zoomIn">
+                    <div class="product-img-hover">
+                    <div class="discount-badge">-20%</div>
+                        <img src="images/laptop.jpg" alt="Laptop" class="img-normal">
+                        <img src="images/laptop-hover.jpg" alt="Laptop Hover" class="img-hover">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Laptop Pro X1</h3>
+                        <p>Potente laptop para profesionales</p>
+                        <p class="product-price"><span class="old-price">S/. 3,999.00</span> <span class="final-price">S/. 3,199.20</span></p>
+                    </div>
+                </div>
+                <div class="product-card anim-zoomIn anim-delay-1">
+                    <div class="product-img-hover">
+                        <img src="images/mouse.jpg" alt="Mouse" class="img-normal">
+                        <img src="images/mouse-hover.jpg" alt="Mouse Hover" class="img-hover">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Mouse Gaming RGB</h3>
+                        <p>Mouse gaming de alta precisión</p>
+                        <p class="product-price"><span class="final-price">S/. 199.00</span></p>
+                    </div>
+                </div>
+                <div class="product-card anim-zoomIn anim-delay-2">
+                    <div class="product-img-hover">
+                    <div class="discount-badge">-10%</div>
+                        <img src="images/keyboard.jpg" alt="Teclado" class="img-normal">
+                        <img src="images/keyboard-hover.jpg" alt="Teclado Hover" class="img-hover">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Teclado Mecánico</h3>
+                        <p>Teclado mecánico RGB</p>
+                        <p class="product-price"><span class="old-price">S/. 299.00</span> <span class="final-price">S/. 269.10</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-tw">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Nuestra empresa</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="sedes.html">Sedes</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="contacto.html">Ayuda/Preguntas frecuentes</a></li>
+                    <li><a href="#">Prensa</a></li>
+                    <li><a href="#">Afiliados</a></li>
+                    <li><a href="#">Socios</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Más</h4>
+                <ul>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Aviso legal</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-col region">
+                <h4>Región / Divisa</h4>
+                <select>
+                    <option>Perú</option>
+                    <option>Chile</option>
+                    <option>Argentina</option>
+                </select>
+                <select>
+                    <option>Soles (PEN)</option>
+                    <option>Dólar (USD)</option>
+                    <option>Euro (EUR)</option>
+                </select>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-social">
+                <a href="#"><img src="images/logo.svg" alt="TechnoWorld" style="height:100px;vertical-align:middle;"></a>
+            </div>
+            <p>© 2025 TechnoWorld. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
